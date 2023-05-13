@@ -46,7 +46,7 @@ public class Coordenada
     
     public String toString() 
     {
-        return "Coordenada (" +  x+ " , " +  y + ')';
+        return "Coordenada (" +  x + " , " +  y + ')';
     }
     
     

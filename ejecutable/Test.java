@@ -24,9 +24,9 @@ public class Test
         System.out.println(  c1.equals(c3)  ? " c1 y c3  Son iguales" : " c1 y c3  Son distintos");
         System.out.println("\n----------------------\n");
 
-        System.out.println("calcular distacia de c1 a c2  " + "\nES: " + c1.calcularDistancia(c2));
-        System.out.println("calcular distacia de c4 y c2 : " + "\nES: " + c4.calcularDistancia(c2));
-        System.out.println("calcular distacia de c1 y c3 : " + "\nES: " + c1.calcularDistancia(c3));
+        System.out.println("calcular distacia de c1 a c2  " + "\nla distancia  es: " + c1.calcularDistancia(c2));
+        System.out.println("calcular distacia de c4 y c2 : " + "\nla distancia  es: " + c4.calcularDistancia(c2));
+        System.out.println("calcular distacia de c1 y c3 : " + "\nla distancia  es: " + c1.calcularDistancia(c3));
 
 
 
