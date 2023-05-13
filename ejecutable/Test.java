@@ -6,6 +6,8 @@ public class Test
 {
     public static void main(String[] args) 
     {   
+        System.out.println("\n----------------------\n");
+
         Coordenada c1 = new Coordenada();
         Coordenada c2 = new Coordenada(1.3, 5.3);
         Coordenada c3 = c1;
@@ -15,12 +17,17 @@ public class Test
         System.out.println("c2: " + c2);
         System.out.println("c3: " + c3);
         System.out.println("c4: " + c4);
+        System.out.println("\n----------------------\n");
 
        
         System.out.println(c1.equals(c2)  ? " c1 y c2 Son iguales" : " c1 y c2  Son distintos");
         System.out.println(  c1.equals(c3)  ? " c1 y c3  Son iguales" : " c1 y c3  Son distintos");
+        System.out.println("\n----------------------\n");
 
-        System.out.println("calcular distacia" );
+        System.out.println("calcular distacia de c1 a c2  " + "\nES: " + c1.calcularDistancia(c2));
+        System.out.println("calcular distacia de c4 y c2 : " + "\nES: " + c4.calcularDistancia(c2));
+        System.out.println("calcular distacia de c1 y c3 : " + "\nES: " + c1.calcularDistancia(c3));
+
 
 
         
